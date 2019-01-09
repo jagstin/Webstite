@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Snow Conditions</title>
+<link rel="shortcut icon" type="image/png" href="img/pageicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=0.75">
+</head>
+<style>
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #abb7cc;
+  margin: 0; overflow-x:hidden; overflow-y: hidden;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #abb7cc;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+.container {
+  max-width: 450px;
+  height: 300px;
+  border: 10px solid white;
+  margin: 120px auto;
+  display: grid;
+  grid-auto-rows: 20% 80%;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 25px;
+  }
+
+.container1 {
+max-width: 450px;
+height: 200px;
+border: 10px solid yellow;
+margin: 120px auto;
+display: grid;
+grid-auto-rows: 20% 80%
+padding: 5px 5px;
+border-radius: 25px;
+}
+
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: green;
+  text-align: center;
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 2rem;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="snow.html">Snow Information</a>
+  <a href="webcams.html">Webcams</a> 
+  <a href="about.html">About</a>
+</div>
+
+<!-- This is the Background image-->
+<div class="container">
+<!--<img src="img/snow.jpg" alt="Snow" style="height: 100%; background-size: cover; margin: 0px; padding: 0px;">-->
+ 
+<!-- This is the snow conditions-->
+  <div class="centered">
+<h1 style="background-color: white;">Snow Conditions</h1>
+<!-- Average base height-->
+<h2 style="background-color: white;">Base Height: 1.5 FT</h5>
+<!-- Snow Blowing status-->
+<h2 style="background-color: white;">Snow Blowing: N/A</h6>
+<!--<h2 style="background-color: white;">Snow: Not Good</h6>-->
+<!-- Remove when lift is set up <h6 style="background-color: #30abad; ">Lift: Running</h6> -->
+<!-- This is to push the text up--><h6>　</h6><!-- Looks Blank But its there-->
+  </div>
+</div>
+
+<div class="container1">
+
+<h1 style="text-align: center;">Snow Conditions: </h1>
+<h2 style="text-align: center;">Not Advised</h2>
+</div>
+
+
+<div class="footer">
+  <p style="text-align: center;">Powered by: <a href="http://www.skiroundtop.com/">Roundtop Mountain Resort</a></p>
+</div>
+
+<script type="text/javascript">
+  alert("Roundtop is currently closed")
+</script>
+</body>
+</html> 
